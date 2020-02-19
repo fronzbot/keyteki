@@ -13,4 +13,4 @@ EXPOSE 9500
 
 RUN chmod +x start.sh
 
-CMD ["./start.sh"]
+CMD ["sh", "./start.sh"]
