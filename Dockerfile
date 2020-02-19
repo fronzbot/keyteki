@@ -11,4 +11,6 @@ EXPOSE 9229
 EXPOSE 9339
 EXPOSE 9500
 
+RUN chmod +x start.sh
+
 CMD ["./start.sh"]
